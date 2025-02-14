@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #balance {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .income {
+    color: green;
+  }
+  
+  .expense {
+    color: red;
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    color: #dc3545;
+  }
