@@ -51,5 +51,5 @@ function updateBalance() {
   const balance = transactions.reduce((total, transaction) => {
     return transaction.type === 'income' ? total + transaction.amount : total - transaction.amount;
   }, 0);
-  document.getElementById('balance').textContent = `$${balance.toFixed(2)}`;
+  document.getElementById('balance').textContent = `PKR${balance.toFixed(2)}`;
 }
